@@ -1,22 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    
-</head>
-<body>
-    <h1>Hello Bootstrap</h1>
-    <h2>Buttons:</h2>
-    <button class="btn btn-primary ">My Button</button>
-    <button class="btn btn-success ">My Button</button>
-    <button class="btn btn-warning ">My Button</button>
-    <button class="btn btn-danger ">My Button</button>
 
-    <h2>Paragraph:</h2>
-    <p class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde, minima amet odit debitis voluptas quos natus dicta vel, labore quisquam magnam veritatis ducimus nisi distinctio voluptatum minus autem iusto, libero adipisci sunt! Id temporibus, aperiam nesciunt officia, minus exercitationem perspiciatis dignissimos, consequuntur vitae cum sed. Placeat saepe nesciunt delectus veniam non enim suscipit, voluptate iure officia adipisci vero? Dolorem quis minus, aspernatur quidem magni nobis accusamus modi consectetur maxime ab itaque culpa fugit fuga rem id praesentium totam similique ut sit quasi. Adipisci necessitatibus magnam reiciendis in dolor illum voluptatibus iure officiis qui consequatur dolorum, deleniti numquam. In et officia dolorum optio sed similique dignissimos adipisci iusto aperiam amet rerum, eligendi cupiditate sit vel, ad obcaecati laborum consectetur? Neque tempore dolorum iste facilis modi vitae beatae quaerat excepturi, accusantium fugiat et ducimus aperiam placeat, illum consequatur similique sapiente ipsam nihil error nemo cupiditate at quod quia maxime! Praesentium illum beatae, aliquam commodi consequatur possimus placeat laudantium eaque vel odio assumenda deleniti quas laboriosam eum fugiat! Laborum, doloremque modi asperiores adipisci dolores id vel fuga? Nobis voluptatum aspernatur cumque officiis dolorum nostrum ducimus incidunt in quaerat totam minus ipsum delectus, molestias magni voluptates cum est debitis, labore maiores suscipit distinctio.</p>
-    <p class="text-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos minus quas ullam commodi, aliquam odio nostrum veniam cupiditate aliquid, pariatur atque amet. Error provident sapiente ab, dolore eum nulla cum est labore numquam temporibus mollitia doloribus, itaque vitae laudantium incidunt similique. Corrupti soluta a reiciendis, accusantium, quo, excepturi suscipit magnam consequatur ullam velit tempora quaerat. Architecto hic enim fugit praesentium! Nemo autem a odio neque, at amet reprehenderit provident dolorem repudiandae repellendus. Nostrum doloremque nam provident inventore, deserunt unde libero et tempore dolor veniam consectetur officia vel repudiandae delectus labore eveniet. Similique, ab quibusdam? Nam, non tempora ipsum beatae quis sint, totam necessitatibus facere eveniet molestiae perspiciatis labore repudiandae adipisci suscipit corrupti, velit illum ex. Odit laborum corrupti ipsum? Ex aspernatur quae eius et quam sit aperiam numquam mollitia praesentium quaerat! Alias illo voluptas, libero amet cupiditate, error veniam atque officia soluta, quo repellat eos. Corrupti hic autem ipsum vel.</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <style>
+    h1 {
+      margin-top: 50px;
+    }
+
+    .top{
+      overflow: hidden;
+      height: 500px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Carousel:</h1>
+  <div class="top">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>Button:</h1>
+  <button class="btn btn-primary">My Button</button>
+  <button class="btn btn-secondary">My Button</button>
+  <button class="btn btn-danger">My Button</button>
+  <button class="btn btn-warning">My Button</button>
+  <button class="btn btn-dark">My Button</button>
+  <button class="btn btn-info">My Button</button>
+  <h1>Paragraph:</h1>
+  <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam atque minima
+    dolore totam ipsam consequuntur officiis rem numquam mollitia consectetur magnam doloremque tempore earum quisquam
+    eaque aliquid, commodi eum assumenda. Nulla alias quaerat maxime quo, est ex, sed assumenda recusandae modi enim
+    voluptate expedita nesciunt quibusdam in doloremque earum.</p>
+
+  <p class="text-white-50 bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam atque
+    minima dolore totam ipsam consequuntur officiis rem numquam mollitia consectetur magnam doloremque tempore earum
+    quisquam eaque aliquid, commodi eum assumenda. Nulla alias quaerat maxime quo, est ex, sed assumenda recusandae modi
+    enim voluptate expedita nesciunt quibusdam in doloremque earum.</p>
+  <p class="bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam atque minima dolore
+    totam ipsam consequuntur officiis rem numquam mollitia consectetur magnam doloremque tempore earum quisquam eaque
+    aliquid, commodi eum assumenda. Nulla alias quaerat maxime quo, est ex, sed assumenda recusandae modi enim voluptate
+    expedita nesciunt quibusdam in doloremque earum.</p>
+
+  <h1>Images:</h1>
+  <img src="images/1.jpg" alt="images" class="img-fluid w-25 rounded-circle img-thumbnail">
+  <img src="images/2.jpg" alt="" class="img-fluid w-25 rounded-circle img-thumbnail">
+
+  <h1>Card</h1>
+  <div class="card" style="width: 18rem;">
+    <img src="images/3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cute Dog</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Buy Now</a>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>Navigation</h1>
+  <nav class="nav">
+    <a href="" class="nav-link active">Home</a>
+    <a href="" class="nav-link active">Menu</a>
+    <a href="" class="nav-link active">Service</a>
+    <a href="" class="nav-link active">Blog</a>
+    <a href="" class="nav-link active">Privacy</a>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <title>Bootstrap</title><img src="images/logo.png" alt="Bootstrap" width="30" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Privacy</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <h1>Grid:</h1>
+    <div class="row">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2"> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. In possimus autem aliquid ipsum similique tempore odio
+        eveniet deserunt cumque quia dolorem, aspernatur sequi quidem fugit, architecto esse error? Laudantium illum,
+        alias, consectetur esse mollitia repellat consequuntur nisi blanditiis ut eos eum numquam possimus? In fugiat
+        temporibus quas dolores aspernatur laudantium?</div>
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2"> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. In possimus autem aliquid ipsum similique tempore odio
+        eveniet deserunt cumque quia dolorem, aspernatur sequi quidem fugit, architecto esse error? Laudantium illum,
+        alias, consectetur esse mollitia repellat consequuntur nisi blanditiis ut eos eum numquam possimus? In fugiat
+        temporibus quas dolores aspernatur laudantium?</div>
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2"> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. In possimus autem aliquid ipsum similique tempore odio
+        eveniet deserunt cumque quia dolorem, aspernatur sequi quidem fugit, architecto esse error? Laudantium illum,
+        alias, consectetur esse mollitia repellat consequuntur nisi blanditiis ut eos eum numquam possimus? In fugiat
+        temporibus quas dolores aspernatur laudantium?</div>
+      <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2"> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. In possimus autem aliquid ipsum similique tempore odio
+        eveniet deserunt cumque quia dolorem, aspernatur sequi quidem fugit, architecto esse error? Laudantium illum,
+        alias, consectetur esse mollitia repellat consequuntur nisi blanditiis ut eos eum numquam possimus? In fugiat
+        temporibus quas dolores aspernatur laudantium?</div>
+    </div>
+  </div>
+ <div class="container">
+  <div class="d-flex flex-row-reverse justify-content-evenly" >
+
+    <div>Abir</div>
+    <div>Nebir</div>
+    <div>Sabbir</div>
+    <div>Darun</div>
+  </div>
+ </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
